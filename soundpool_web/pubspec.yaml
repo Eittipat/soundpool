@@ -14,18 +14,15 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   
-  soundpool_platform_interface: ^2.5.0
-  
+  soundpool_platform_interface:
+    path: ../soundpool_platform_interface
+
   http: ^1.1.0
   web: ^1.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-dependency_overrides:
-  soundpool_platform_interface:
-    path: ../soundpool_platform_interface
 
 flutter:
   plugin:
