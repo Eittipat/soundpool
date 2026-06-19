@@ -1,3 +1,6 @@
+## 2.5.0
+* Example app: revamped UI with play/pause/resume/stop controls, rate and volume sliders, and current stream id display
+* Bump `soundpool_platform_interface`, `soundpool_web`, `soundpool_macos` to 2.5.0
 ## 2.4.1
 * Support AGP 8.0 (fixes [#121](https://github.com/ukasz123/soundpool/issues/121), thanks to [MrCsabaToth](https://github.com/MrCsabaToth)). 
 ## 2.4.0

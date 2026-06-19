@@ -1,3 +1,6 @@
+## 2.5.0
+- Align version with soundpool 2.5.0 release
+- Bump `soundpool_platform_interface` to ^2.5.0
 ## 2.3.0
 Update for Dart 3.0 and Flutter 3.10
 ## 2.2.0

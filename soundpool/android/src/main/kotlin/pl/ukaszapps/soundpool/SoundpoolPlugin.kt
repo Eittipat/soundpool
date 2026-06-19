@@ -165,7 +165,7 @@ internal class SoundpoolWrapper(private val context: Context, private val maxStr
                         val arguments = call.arguments as Map<String, Any>
                         val soundData = arguments["rawSound"] as ByteArray
                         val priority = arguments["priority"] as Int
-                        val tempFile = createTempFile(prefix = "sound", suffix = "pool", directory = context.cacheDir)
+                        val tempFile = File.createTempFile("sound", "pool", context.cacheDir)
                         FileOutputStream(tempFile).use {
                             it.write(soundData)
                             tempFile.deleteOnExit()
@@ -193,7 +193,7 @@ internal class SoundpoolWrapper(private val context: Context, private val maxStr
                                     return@let if (uri.scheme == "content") {
                                         soundPool.load(context.contentResolver.openAssetFileDescriptor(Uri.parse(soundUri), "r"), 1)
                                     } else {
-                                        val tempFile = createTempFile(prefix = "sound", suffix = "pool", directory = context.cacheDir)
+                                        val tempFile = File.createTempFile("sound", "pool", context.cacheDir)
                                         FileOutputStream(tempFile).use { out ->
                                             out.write(uri.toURL().readBytes())
                                         }

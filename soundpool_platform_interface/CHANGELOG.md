@@ -1,3 +1,5 @@
+## 2.5.0
+- Align version with soundpool 2.5.0 release
 ## 2.2.0
 - Update for dart 3.0
 ## 2.1.0

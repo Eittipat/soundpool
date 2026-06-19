@@ -5,10 +5,13 @@ publish_to: none
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.44.0"
 
 dependencies:
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.8
 
   soundpool:
     path: ../
@@ -16,6 +19,15 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  soundpool_platform_interface: ^2.5.0
+
+dependency_overrides:
+  soundpool_macos:
+    path: ../../soundpool_macos
+  soundpool_web:
+    path: ../../soundpool_web
+  soundpool_platform_interface:
+    path: ../../soundpool_platform_interface
 
 
 # The following section is specific to Flutter.
