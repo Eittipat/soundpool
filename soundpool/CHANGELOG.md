@@ -1,3 +1,7 @@
+## 2.5.1
+* Lower Flutter SDK floor to 3.38.10 for broader compatibility
+* Bump `soundpool_web`, `soundpool_macos` to 2.5.1
+
 ## 2.5.0
 * Example app: revamped UI with play/pause/resume/stop controls, rate and volume sliders, and current stream id display
 * Bump `soundpool_platform_interface`, `soundpool_web`, `soundpool_macos` to 2.5.0

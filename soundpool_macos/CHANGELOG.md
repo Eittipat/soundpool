@@ -1,3 +1,6 @@
+## 2.5.1
+- Align version with soundpool 2.5.1 release
+
 ## 2.5.0
 - Align version with soundpool 2.5.0 release
 - Bump `soundpool_platform_interface` to ^2.5.0
