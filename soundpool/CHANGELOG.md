@@ -1,3 +1,6 @@
+## 2.5.2
+* Apply the Kotlin Android Gradle plugin so Android builds can configure Kotlin compiler options.
+
 ## 2.5.1
 * Lower Flutter SDK floor to 3.38.10 for broader compatibility
 * Bump `soundpool_web`, `soundpool_macos` to 2.5.1
